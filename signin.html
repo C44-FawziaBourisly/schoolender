@@ -112,6 +112,7 @@ label {
             </li>
             <li><a href="./للتواصل.html">CONTACT US</a></li>
             <li><a href="./signin.html">SIGN</a></li>
+            <li> <a href=""id="logout-btn"> SIGN OUT</a></li>
           </ul>
         </div>
       </nav>
@@ -122,21 +123,21 @@ label {
      <div id="card">
       <div id="card-content">
         <div id="card-title">
-          <h2>SIGN IN</h2>
+          <h2>SIGN UP</h2>
           <div class="underline-title"></div>
         </div>
         <form method="post" class="form">
           <label for="user-email" style="padding-top:13px">
               &nbsp;Email
             </label>
-          <input id="signup-email" class="form-content" type="email" name="email" autocomplete="on" required />
+          <input id="signup-email" id="email_failed" class="form-content" type="email" name="email" autocomplete="on" required />
           <div class="form-border"></div>
           <label for="signup-password" style="padding-top:22px">&nbsp;Password
             </label>
-          <input id="signup-password" class="form-content" type="password" name="password" required />
+          <input id="signup-password" id="pass_failed" class="form-content" type="password" name="password" required />
           <div class="form-border"></div>
          
-          <input id="submit-btn" class="signupbtn" type="submit" name="submit" value="SIGN IN" />
+          <input id="submit-btn" class="signupbtn" type="submit" name="submit" value="SIGN UP" />
       
         </form>
       </div>
