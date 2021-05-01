@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -27,13 +27,43 @@
                 <li><a href="./MEN.HTML">TIME</a></li>
               </ul>
             </li>
+            <li> <a href="./semester.html"> SEMESTERS</a></li>
             <li><a href="./للتواصل.html">CONTACT US</a></li>
             <li><a href="./signin.html">SIGN UP</a></li>
            <li> <a href=""id="logout-btn"> SIGN OUT</a></li>
+           
           </ul>
         </div>
       </nav>
      
     <img src="" alt="">
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js%22%3E</script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js%22%3E</script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyCn_XYM01rE67Y03QcnpELDx6lf2nlCpsg",
+      authDomain: "schoolender-kw.firebaseapp.com",
+      databaseURL: "https://schoolender-kw-default-rtdb.firebaseio.com/",
+      projectId: "schoolender-kw",
+      storageBucket: "schoolender-kw.appspot.com",
+      messagingSenderId: "129355771053",
+      appId: "1:129355771053:web:b6b81442a44b9e383baa24",
+      measurementId: "G-L1QX7H99E2"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
 </body>
 </html>
