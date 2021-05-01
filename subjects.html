@@ -11,59 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
     <style>
-        /* body {
-  
-  font-size: 16px;
-  font-weight: 400;
-  background: #0B2647;
-  color: white;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  text-align: center;
-  height: 100vh;
-}
-h1 {
-  font-size: clamp(20px, 4vw, 30px);
-  line-height: 1.2;
-  margin-bottom: 40px;
-} */
-/* main {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-summary {
-  font-size: 3.25rem;
-  font-weight: 600;
-  background-color: rgb(255, 255, 255);
-  color: #333;
-  padding: 3rem;
-  margin-bottom: 1rem;
-  outline: none;
-  border-radius: 0.25rem;
-  text-align: left;
-  cursor: pointer;
-  position: relative;
-}
-details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-@keyframes sweep {
-  0%    {opacity: 0; margin-top: -10px}
-  100%  {opacity: 1; margin-top: 0px}
-}
-details > summary::after {
-  position: absolute;
-  content: "+";
-  right: 20px;
-}
-details[open] > summary::after {
-  position: absolute;
-  content: "-";
-  right: 20px;
-}
-details > summary::-webkit-details-marker {
-  display: none;
-} */
+
 
 .myul {
     width: 900px;
@@ -149,7 +97,7 @@ details > summary::-webkit-details-marker {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-  background-color: #FFC8E7;
+  /* background-color: #FFC8E7; */
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -194,13 +142,13 @@ input {
     </style>
     <title>Document</title>
 </head>
-<body style="background-color: #FFC8E7;">
-    <nav class="navbar navbar-inverse">
+<body style=" background: url(./to-do.jpg) center no-repeat; background-size: cover;">
+    <nav style="height: 70px;" class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">SL</a>
+            <a style="padding-top: 25px; font-size: 25px;" class="navbar-brand" href="#">SL</a>
           </div>
-          <ul class="nav navbar-nav">
+          <ul style="padding-top: 10px; font-size: 25px;" class="nav navbar-nav">
             <li class="active"><a href="./index.html">HOME</a></li>
             <li class="dropdown">
               <span class="caret"></span></a>
@@ -209,7 +157,7 @@ input {
                 <li><a href="./MEN.HTML">TIME</a></li>
               </ul>
             </li>
-            <li> <a  href="./semester.html"> SEMESTERS</a></li>
+            <li> <a   href="./semester.html"> SEMESTERS</a></li>
             <li><a href="./للتواصل.html">CONTACT US</a></li>
             <li><a href="./signin.html">SIGN UP</a></li>
            <li> <a href=""id="logout-btn"> SIGN OUT</a></li>
@@ -222,23 +170,47 @@ input {
 
 
 
-
-
       <div id="myDIV" class="header">
         <h1 style=" font-size: 125px; padding-top: 20px; padding-bottom: 50px;">SEMESTERS</h1>
-      <input style="color: black;" type="text" id="myInput" placeholder="Add a Semester">
-      <span style="background: rgb(46, 46, 46); color: white;" onclick="newElement()" class="addBtn">Add</span>
+      <input style="color: black; height: 70px; font-size: 25px; width: 700px; border-radius: 20px;" type="text" id="myInput" placeholder="Add a Semester">
+      <span style="background: rgb(46, 46, 46); color: white; border-radius: 50px; width: 70px; height: 70px; margin-left: 50px; padding-top: 17px; font-size: 25px;" onclick="newElement()" class="addBtn">Add</span>
     </div>
+
+
+
+
+
+
+    <!-- <a class="gradeDiv "  href="./11.html" style="text-decoration: none; color: #000;">  <div style="padding: 50px; background-color: white; box-shadow: rgb(0, 0, 0) 60 60; border-radius: 20px; border-color: black 3px; width: 450px; height: 460px;" >
+        <div style="display: block; text-align: center;">
+         <img  src="./images/book.png" alt="" >
+        </div>
+         <h1  style="display: block; text-align: center; font-size: 40px;"> 11th Grade</h1>
+    </div>
+</a> -->
+
+
+<div style="display: flex; justify-content: space-around; padding-bottom: 140px;">
     
     <ul class="myul" id="myUL">
-      <li style="height: 70px; padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px;">Semester 1</li>
-      <li style="height: 70px; padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px;">Semester 2</li>
-      <li style="height: 70px; padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px;">Semester 3</li>
+     <a href="./subjects.html" style="text-decoration: none; color: black;">
+        
+           <li style=" padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px; width: 450px; height: 460px;">physics</li>
+
+            <img style="display: block; text-align: center; margin-top: -200px; z-index: -1;"  src="./phys.jpg" alt="" >
+          
+        </a>
+
+
+     <a href="./subjects.html" style="text-decoration: none; color: black;"> <li style="height: 70px; padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px; ">math</li></a>
+
+     <a href="./subjects.html" style="text-decoration: none; color: black;"> <li style="height: 70px; padding-top: 19px; font-size: 25px; margin-bottom: 10px; border-radius: 20px;">chemistry</li></a>
       <!-- <li>Buy eggs</li>
       <li>Read a book</li>
       <li>Organize office</li> -->
     </ul>
 
+    </div>
 
       <!-- <main class="main" style="margin-top: 130px; margin-bottom: 150px;">
         <h2 style="text-align: center; padding-bottom: 30px;" >
